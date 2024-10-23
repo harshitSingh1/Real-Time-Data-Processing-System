@@ -1,0 +1,31 @@
+.weather-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f8ff; /* Light background */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.weather-summary:hover {
+  transform: translateY(-5px);
+}
+
+.temperature {
+  font-size: 2.5rem;
+  color: #007bff; /* Blue text for temperature */
+  margin: 10px 0;
+}
+
+.weather-description {
+  font-size: 1.5rem;
+  color: #555; /* Darker text for description */
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
